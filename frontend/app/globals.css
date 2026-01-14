@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@font-face {
+    font-family: "Roboto";
+    src: url('/public/fonts/Roboto/Roboto-Regular.ttf');
+}
+.navbar-font{
+    font-family: "Roboto"!important;
+}
+
+body,html{
+    font-family: "Roboto"!important;
+}
+
+.article-font{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+}
+
+/* Hide horizontal scrollbar for custom carousels */
+.scrollbar-hidden{
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.scrollbar-hidden::-webkit-scrollbar{
+    display: none;
+}
