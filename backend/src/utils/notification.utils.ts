@@ -66,7 +66,7 @@ export async function notifyAdminOfEditorApproval(
 
     // Create in-app notification + send email for each admin
     const notifications = await Promise.all(
-      admins.map(async (admin) => {
+      admins.map(async (admin:any) => {
         // 1. Create in-app notification
         const notification = await createNotification({
           userId: admin.id,

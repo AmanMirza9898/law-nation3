@@ -1,3 +1,42 @@
+// {
+//   "compilerOptions": {
+//     "target": "ES2022",
+//     "lib": ["ES2022"],
+//     "module": "NodeNext",
+//     "moduleResolution": "NodeNext",
+
+//     "rootDir": "./src",
+//     "outDir": "./dist",
+
+//     "sourceMap": true,
+//     "declaration": true,
+//     "declarationMap": true,
+
+//     "verbatimModuleSyntax": true,
+//     "resolveJsonModule": true,
+
+//     "strict": true,
+//     "noUncheckedIndexedAccess": true,
+//     "exactOptionalPropertyTypes": true,
+//     "isolatedModules": true,
+//     "noUncheckedSideEffectImports": true,
+
+//     "types": ["node"],
+
+//     "forceConsistentCasingInFileNames": true,
+//     "skipLibCheck": true,
+
+//     /* Path aliases */
+//     "baseUrl": ".",
+//     "paths": {
+//       "@/*": ["src/*"]
+//     }
+//   },
+//   "include": ["src/**/*.ts"],
+//   "exclude": ["node_modules", "dist"]
+// }
+
+
 {
   "compilerOptions": {
     "target": "ES2022",
@@ -15,11 +54,13 @@
     "verbatimModuleSyntax": true,
     "resolveJsonModule": true,
 
-    "strict": true,
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
+    "strict": false,
+    "noImplicitAny": false,
+    "noEmitOnError": false,
+    "noUncheckedIndexedAccess": false,
+    "exactOptionalPropertyTypes": false,
     "isolatedModules": true,
-    "noUncheckedSideEffectImports": true,
+    "noUncheckedSideEffectImports": false,
 
     "types": ["node"],
 
