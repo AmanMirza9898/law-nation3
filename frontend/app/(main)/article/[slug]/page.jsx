@@ -77,7 +77,7 @@ export default function ArticlePage({ params }) {
   const unwrappedParams = use(params);
   const slug = unwrappedParams?.slug;
 
-  const API_BASE_URL = "http://localhost:4000";
+  const API_BASE_URL = "https://law-nation3.onrender.com";
   const { token } = useSelector((state) => state.auth);
 
   const [article, setArticle] = useState(null);

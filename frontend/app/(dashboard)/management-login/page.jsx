@@ -72,7 +72,7 @@ const [captchaToken, setCaptchaToken] = useState(null);
     setIsLoading(true)
 
     try {
-      const API_URL = "http://localhost:4000/api"
+      const API_URL = "https://law-nation3.onrender.com/api"
       
       // ✅ FIX 2: Naya payload banaya jisme token bhi hai
       const payload = {

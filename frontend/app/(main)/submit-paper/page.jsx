@@ -244,7 +244,7 @@ export default function SubmitPaperPage() {
 
       const token = localStorage.getItem("authToken");
       const API_URL =
-        process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000/api/articles";
+        process.env.NEXT_PUBLIC_API_URL || "https://law-nation3.onrender.com/api/articles";
 
       const response = await fetch(`${API_URL}/submit-with-images`, {
         method: "POST",
@@ -299,7 +299,7 @@ export default function SubmitPaperPage() {
 
     try {
       const API_URL =
-        process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000/api/articles";
+        process.env.NEXT_PUBLIC_API_URL || "https://law-nation3.onrender.com/api/articles";
 
       const res = await fetch(`${API_URL}/verify-code`, {
         method: "POST",

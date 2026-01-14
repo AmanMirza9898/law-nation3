@@ -14,7 +14,7 @@ export default function HomePage() {
   const [isLoading, setIsLoading] = useState(true);
   const [isSearching, setIsSearching] = useState(false);
 
-  const API_BASE_URL = "http://localhost:4000";
+  const API_BASE_URL = "https://law-nation3.onrender.com";
 
   // 1. Redux se login status check karna
   const { user } = useSelector((state) => state.auth);

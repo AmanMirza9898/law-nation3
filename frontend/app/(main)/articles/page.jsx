@@ -285,7 +285,7 @@ function ArticlesContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   
-  const API_BASE_URL = "http://localhost:4000";
+  const API_BASE_URL = "https://law-nation3.onrender.com";
 
   // --- States ---
   const [articles, setArticles] = useState([]);
