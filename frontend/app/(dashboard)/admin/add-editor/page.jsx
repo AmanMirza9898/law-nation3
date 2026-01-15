@@ -12,7 +12,7 @@ export default function AddEditorPage() {
   const [loading, setLoading] = useState(false);
   
   // Backend URL
-  const API_BASE_URL = "http://localhost:4000"; 
+  const API_BASE_URL = "https://law-nation3.onrender.com"; 
 
   const handleInvite = async (e) => {
     e.preventDefault();
